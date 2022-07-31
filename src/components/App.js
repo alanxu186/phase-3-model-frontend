@@ -4,12 +4,16 @@ import AgenciesPage from "./AgenciesPage";
 import BookingsPage from "./BookingsPage";
 import Homepage from "./Homepage";
 import ModelsPage from "./ModelsPage";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import MenuBar from "./MenuBar";
+import { Routes, Route } from 'react-router-dom'
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 function App() {
   return (
-    <Router>
+    <div>
+      <MenuBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -17,7 +21,7 @@ function App() {
         <Route path="/models" element={<ModelsPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
       </Routes>
-    </Router>
+    </div>
   );
 }
 
