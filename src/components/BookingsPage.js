@@ -1,7 +1,10 @@
 import "../stylesheets/BookingsPage.css"
 
 function BookingsPage() {
-    return
-}
+    return(
+    <div>
+        THIS IS THE BOOKINGSPAGE COMPONENT
+    </div>
+)}
 
 export default BookingsPage
