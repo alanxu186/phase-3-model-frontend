@@ -5,6 +5,7 @@ import BookingsPage from "./BookingsPage";
 import Homepage from "./Homepage";
 import ModelsPage from "./ModelsPage";
 import MenuBar from "./MenuBar";
+import Footer from "./Footer";
 import { Routes, Route } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/models" element={<ModelsPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
