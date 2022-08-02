@@ -10,7 +10,7 @@ function Footer () {
             <Container>
                 <Row>
                     <Col>
-                        Copyright Celestino and Alan &copy; Model
+                        Copyright Celestino and Alan &copy; Rubine
                     </Col>
                 </Row>
             </Container>

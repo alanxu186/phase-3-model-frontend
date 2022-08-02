@@ -1,0 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/28cd2d1c6f94e83a67d26c546c20ff66?family=MangoSans);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  MangoSans, Arial, serif;
+    font-size: 3vh;
+}
+
+
