@@ -8,13 +8,13 @@ import Form from 'react-bootstrap/Form'
 function LoginForm() {
     return (
         <div>
-            <Container className="mt-5">
+            <Container class="d-flex justify-content-center">
                 <Row>
                     <Col lg={4} md={6} sm={12} className="text-center mt-5 p-3">
                         <img className="icon-img" src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" alt="icon" />
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Username" />
+                                <Form.Control type="email" placeholder="Username"/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Control type="password" placeholder="Password" />
@@ -25,9 +25,6 @@ function LoginForm() {
                                 </Button>
                             </div>
                         </Form>
-                    </Col>
-                    <Col lg={4} md={6} sm={12}>
-                        <img src="https://en.vogue.me/wp-content/uploads/2016/06/1000a-model-lucky-blue-smith-instagram-calvin-klein-tom-ford-balmain-men.jpg" />
                     </Col>
                 </Row>
             </Container>

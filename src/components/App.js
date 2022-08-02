@@ -24,7 +24,7 @@ function App() {
         <Route path="/bookings" element={<BookingsPage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
