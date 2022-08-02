@@ -1,6 +1,7 @@
 import "../stylesheets/Homepage.css"
 import Carousel from 'react-bootstrap/Carousel'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
 
 function Homepage() {
@@ -11,7 +12,9 @@ function Homepage() {
                     <Card.Body>
                         <Card.Title>Interview with Model 102</Card.Title>
                         <Card.Text>Model 102 talks about bridging Western and Eastern Fashion.</Card.Text>
+                        <Button variant="primary">This button don't work man</Button>
                     </Card.Body>
+                    <Card.Footer className="text-muted">Something End</Card.Footer>
                 </Card>
                 <Carousel>
                     <Carousel.Item interval={5000}>

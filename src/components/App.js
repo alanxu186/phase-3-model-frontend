@@ -6,6 +6,7 @@ import Homepage from "./Homepage";
 import ModelsPage from "./ModelsPage";
 import MenuBar from "./MenuBar";
 import Footer from "./Footer";
+import LoginPage from "./LoginPage";
 import { Routes, Route } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <MenuBar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -21,6 +22,7 @@ function App() {
         <Route path="/agencies" element={<AgenciesPage />} />
         <Route path="/models" element={<ModelsPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </div>

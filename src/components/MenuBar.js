@@ -31,32 +31,11 @@ function MenuBar() {
                             <Button variant="outline-secondary">Search</Button>
                         </Form>
                         <Nav>
-                            <Nav.Link>Sign in</Nav.Link>
+                            <Nav.Link as={Link} to={"/login"}>Login</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
-                <Container className="nav-container">
-                    <Nav>
-                        <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
-                        <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
-                        <Nav.Link as={Link} to={"/agencies"}>Agencies</Nav.Link>
-                        <Nav.Link as={Link} to={"/models"}>Models</Nav.Link>
-                        <Nav.Link as={Link} to={"/bookings"}>Bookings</Nav.Link>
-                    </Nav>
-                    <Navbar.Brand className="navbar-brand">Rubino</Navbar.Brand>
-                    <Form className="d-flex">
-                        <Form.Control
-                            type="search"
-                            placeholder="Search"
-                            className="me-2"
-                            aria-label="Search"
-                        />
-                        <Button variant="outline-success">Search</Button>
-                    </Form>
-                </Container>
-            </Navbar> */}
         </div>
     )
 }
