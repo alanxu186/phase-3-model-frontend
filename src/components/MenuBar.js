@@ -5,8 +5,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import { useState } from "react";
 
 function MenuBar() {
+
+    const [search, setSearch] = useState("")
+
+    function handleFormSubmit(e) {
+        e.preventDefault()
+
+    }
+
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
@@ -20,12 +29,14 @@ function MenuBar() {
                             <Nav.Link as={Link} to={"/models"}>Models</Nav.Link>
                             <Nav.Link as={Link} to={"/bookings"}>Bookings</Nav.Link>
                         </Nav>
-                        <Form className="d-flex">
+                        <Form className="d-flex" onSubmit={handleFormSubmit}>
                             <Form.Control
                                 type="search"
                                 placeholder="Search"
                                 className="me-2"
                                 aria-label="Search"
+                                required
+                                onChange={(e) => setSearch(e.target.value)}
                             />
                             <Button variant="outline-secondary">Search</Button>
                         </Form>
