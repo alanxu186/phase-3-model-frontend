@@ -1,0 +1,14 @@
+.card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+#break-card {
+    padding: 15px;
+    margin: 25px 0;
+}
+
+#col-image {
+    height: 50%;
+    width: 50%;
+}

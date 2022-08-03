@@ -9,17 +9,17 @@ function ModelsPage() {
     useEffect(() => {
         fetch('http://localhost:9292/agency')
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(setAgency)
     }, [])
-        // const agencyInfo = agency.map ((item) => (
-        //     <li key={item.id}>
-        //         <div className="some-container">
-        //             <div className="agency-name"> 
-        //                 <p>{item.name}</p>
-        //             </div>
-        //         </div>
-        //     </li>
-        // ))
+        const agencyInfo = agency.map ((item) => (
+            <li key={item.id}>
+                <div className="some-container">
+                    <div className="agency-name"> 
+                        <p>{item.company_name}</p>
+                    </div>
+                </div>
+            </li>
+        ))
 
     return (
         <div className="grid-body">
@@ -35,6 +35,7 @@ function ModelsPage() {
                 <img src="https://hips.hearstapps.com/hmg-prod/images/emma-1-1521213816.jpg"></img>
                 <img src="https://hips.hearstapps.com/hmg-prod/images/emma-1-1521213816.jpg"></img>
             </div> */}
+            {agencyInfo}
         </div>
     )
 }

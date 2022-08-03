@@ -4,6 +4,7 @@ function BookingsPage() {
     return (
         <div>
             <div className="banner">
+            <h2>Book Your Model</h2>
                 <div className="card-container">
                     <div className="card-img">
                     </div>

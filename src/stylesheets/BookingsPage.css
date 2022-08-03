@@ -2,20 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
-    border-style: solid;
+    color: black;
 }
 
 .card-container{
     display: grid;
     grid-template-columns: 420px 420px;
+    border-style: solid;
 }
 .card-img{
     background: url("https://www.syfy.com/sites/syfy/files/gudetama-hero.jpg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 .card-content{
     background: #fff;

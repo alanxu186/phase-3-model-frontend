@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import LoginPage from "./LoginPage";
 import { Routes, Route } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
+import ProfilePage from "./ProfilePage";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/models" element={<ModelsPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/profile" element={<ProfilePage/>}/>
       </Routes>
       {/* <Footer /> */}
     </div>
