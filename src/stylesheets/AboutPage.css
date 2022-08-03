@@ -1,0 +1,38 @@
+#jumbotron-container{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)), url("https://images.squarespace-cdn.com/content/v1/59c927ac914e6be08630256d/1560347878269-ZQ4FZP6W0GQLIWPQJSWI/SPECTR_Class_of_2019_GROUPSHOT_FINAL_V2.jpg?format=1500w"); 
+    background-size: cover;
+}
+
+#subcontainer{
+    width:80%;
+    height: 300px;
+}
+
+#lower-about-me {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 20px;
+    height: 80vh;
+}
+
+#lower-left {
+    width: 50%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)), url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2021-10-09-at-8-58-09-am-1633795138.png?resize=640:*"); 
+    background-size: cover;
+}
+
+#lower-left div{
+    margin-top: 20% !important;
+}
+
+#lower-right {
+    width: 50%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4)), url("https://www.fashiongonerogue.com/wp-content/uploads/2016/10/Miranda-Kerr-ELLE-Spain-2016-Cover-Photoshoot05.jpg"); 
+    background-size: cover;
+}
+
+#lower-right div{
+    margin-top: 20% !important;
+}
+
+

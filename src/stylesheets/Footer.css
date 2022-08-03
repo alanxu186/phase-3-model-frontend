@@ -9,6 +9,7 @@ html {
 }
 
 footer {
+    position: relative;
     text-align: center;
     background-color: #343a40;
     color: #fff;

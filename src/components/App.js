@@ -1,6 +1,5 @@
 import "../stylesheets/App.css"
 import AboutPage from "./AboutPage";
-import AgenciesPage from "./AgenciesPage";
 import BookingsPage from "./BookingsPage";
 import Homepage from "./Homepage";
 import ModelsPage from "./ModelsPage";
@@ -19,7 +18,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/agencies" element={<AgenciesPage />} />
         <Route path="/models" element={<ModelsPage />} />
         <Route path="/bookings" element={<BookingsPage />} />
         <Route path="/login" element={<LoginPage />} />

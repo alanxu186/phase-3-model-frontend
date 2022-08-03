@@ -4,14 +4,28 @@ import Card from 'react-bootstrap/Card'
 function AboutPage() {
     return (
         <div>
-            <Card>
-                <Card.Body>
-                    <Card.Text>
-                        Bootstrap is wack but im still gonna use it for this project
-                    </Card.Text>
-                </Card.Body>
-                <Card.Img class="rounded-0" variant="top" src="https://assets.vogue.com/photos/5d937cca0771d900089db818/master/w_2560%2Cc_limit/RD1203.Zawe%2520Ashton%2C%2520Charlie%2520Cox%2C%2520and%2520Tom%2520Hiddleston%2520in%2520BETRAYAL%2520at%2520London's%2520Harold%2520Pinter%2520Theatre%2520(photo%2520by%2520Marc%2520Brenner).jpg" />
-            </Card>
+            <div id="jumbotron-container" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 class="display-4 font-weight-normal text-light">About Us</h1>
+                    <p class="lead font-weight-normal text-light">At Rubine, our mission is to connect both agencies and models. Without agencies, there would be no models. Without models, there would be no agencies. Rubine strives to build a deep level of trust between both sides and wish to share the significance of modeling all around the world.</p>
+                </div>
+            </div>
+
+            <div id="lower-about-me">
+                <div class="bg-dark mr-md-3 pt-3 pt-md-5 px-md-4 text-center text-light overflow-hidden" id="lower-left">
+                    <div class="my-5 py-5">
+                        <h2 class="display-4 font-weight-normal" >Our Values</h2>
+                        <p class="lead font-weight-normal">Beauty standards transcend physical appearances. Beauty is defined by one's ability to display confidence and acceptance of themelves.</p>
+                    </div>
+                </div>
+
+                <div class="bg-light mr-md-3 pt-3 pt-md-5 px-md-4 text-center text-light overflow-hidden" id="lower-right">
+                    <div class="my-5 py-5">
+                        <h2 class="display-4 font-weight-normal">Our Goals</h2>
+                        <p class="lead font-weight-normal">We strive to inspire and give every individual the opportunity to express their sense of self through modeling.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

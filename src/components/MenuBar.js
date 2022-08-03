@@ -17,7 +17,6 @@ function MenuBar() {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
                             <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
-                            <Nav.Link as={Link} to={"/agencies"}>Agencies</Nav.Link>
                             <Nav.Link as={Link} to={"/models"}>Models</Nav.Link>
                             <Nav.Link as={Link} to={"/bookings"}>Bookings</Nav.Link>
                         </Nav>
