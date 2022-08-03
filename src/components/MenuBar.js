@@ -29,7 +29,7 @@ function MenuBar() {
                             <Nav.Link as={Link} to={"/models"}>Models</Nav.Link>
                             <Nav.Link as={Link} to={"/bookings"}>Bookings</Nav.Link>
                         </Nav>
-                        <Form className="d-flex" onSubmit={handleFormSubmit}>
+                        {/* <Form className="d-flex" onSubmit={handleFormSubmit}>
                             <Form.Control
                                 type="search"
                                 placeholder="Search"
@@ -39,7 +39,7 @@ function MenuBar() {
                                 onChange={(e) => setSearch(e.target.value)}
                             />
                             <Button variant="outline-secondary">Search</Button>
-                        </Form>
+                        </Form> */}
                         <Nav>
                             <Nav.Link as={Link} to={"/login"}>Login</Nav.Link>
                         </Nav>
