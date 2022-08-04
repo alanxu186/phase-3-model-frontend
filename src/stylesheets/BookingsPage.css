@@ -8,38 +8,46 @@
 .card-container{
     display: grid;
     grid-template-columns: 420px 420px;
-    border-style: solid;
+    box-shadow: 2px 2px 15px 0px;
 }
 .card-img{
-    background: url("https://www.syfy.com/sites/syfy/files/gudetama-hero.jpg") center/cover no-repeat;
+    background: url("https://img.huffingtonpost.com/asset/5cd4ab2e2100003300d4bf20.jpeg?ops=scalefit_720_noupscale") center/cover;
 }
 .banner h2{
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     margin: 20px;
 }
 .card-content{
     background: #fff;
-    height: 330px;
+    height: auto;
 }
 .card-content h3{
     text-align: center;
     color: #000;
-    padding: 25px 0 10px 0;
+    padding: 15px;
+    margin: 0;
     font-size: 26px;
     font-weight: 500;
 }
-.form-row{
+.form-row div{
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
+
+.form-row div textarea {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 15px;
+}
+
 form select, form input{
     display: block;
     width: 100%;
     margin: 15px 12px;
     padding: 5px;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
     outline: none;
     border: none;
     border-bottom: 1px solid #eee;

@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col"
 import Image from "react-bootstrap/Image"
 import Card from "react-bootstrap/Card"
 import CardGroup from "react-bootstrap/CardGroup"
+import {Link} from 'react-router-dom'
 
 
 
@@ -26,7 +27,9 @@ function ProfileTemplate() {
                         <p>Agency: N/A</p>
                         <p>Ethnicity: South Korean</p>
                         <p>Work status: Some boolean idk man</p>
-                        <button className="book-button">Book Model</button>
+                        <Link to={"/bookings"}>
+                            <button className="book-button">Book Model</button>
+                        </Link>
                     </Col>
                 </Row>
 
