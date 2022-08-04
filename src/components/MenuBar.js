@@ -18,7 +18,7 @@ function MenuBar() {
 
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar id="navbar-container" collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
