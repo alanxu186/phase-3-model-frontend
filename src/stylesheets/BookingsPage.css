@@ -7,11 +7,12 @@
 
 .card-container{
     display: grid;
-    grid-template-columns: 420px 420px;
+    grid-template-columns: 500px 500px;
     box-shadow: 2px 2px 15px 0px;
 }
 .card-img{
-    background: url("https://img.huffingtonpost.com/asset/5cd4ab2e2100003300d4bf20.jpeg?ops=scalefit_720_noupscale") center/cover;
+    background-image: url("https://img.huffingtonpost.com/asset/5cd4ab2e2100003300d4bf20.jpeg?ops=scalefit_720_noupscale");
+    background-size: cover;
 }
 .banner h2{
     padding-bottom: 10px;

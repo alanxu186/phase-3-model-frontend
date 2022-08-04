@@ -1,9 +1,9 @@
-
+import "../stylesheets/BookedPage.css"
 
 function CreateAccount() {
     return (
         <div>
-            This will be the create account form
+            This will be the booked page
         </div>
 
 

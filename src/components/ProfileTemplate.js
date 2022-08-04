@@ -1,10 +1,10 @@
 import "../stylesheets/ProfileTemplate.css"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
-import Image from "react-bootstrap/Image"
 import Card from "react-bootstrap/Card"
 import CardGroup from "react-bootstrap/CardGroup"
+import Col from "react-bootstrap/Col"
+import Container from "react-bootstrap/Container"
+import Image from "react-bootstrap/Image"
+import Row from "react-bootstrap/Row"
 import {Link} from 'react-router-dom'
 
 
