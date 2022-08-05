@@ -4,17 +4,10 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 
-function Footer () {
-    return(
+function Footer() {
+    return (
         <footer>
-            <Container>
-                <Row>
-                    <Col>
-                        Copyright Celestino and Alan &copy; Rubine
-                    </Col>
-                </Row>
-            </Container>
-
+            Copyright Celestino and Alan &copy; Rubine
         </footer>
     )
 }
