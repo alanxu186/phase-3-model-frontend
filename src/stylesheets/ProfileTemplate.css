@@ -72,13 +72,20 @@
     }
 }
 
-.book-button{
+.book-button {
     padding: 10px;
     background-color: #fff;
     border-radius: 10px;
 }
 
-.book-button:hover{
+.favorite-button {
+    padding: 10px 28px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.book-button:hover, .favorite-button:hover{
     background-color: #333333;
     color: #fff;
     transition: all 0.5s ease-in-out;

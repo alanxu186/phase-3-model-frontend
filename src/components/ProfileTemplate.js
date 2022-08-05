@@ -1,45 +1,48 @@
 import "../stylesheets/ProfileTemplate.css"
-import Card from "react-bootstrap/Card"
-import CardGroup from "react-bootstrap/CardGroup"
 import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
-import {Link} from 'react-router-dom'
+import Card from "react-bootstrap/Card"
+import CardGroup from "react-bootstrap/CardGroup"
+import useModel from "../CustomHooks/useModels"
+import { Link } from 'react-router-dom'
+import ModelsList from "./ModelsList"
 
 
 
-function ProfileTemplate() {
+function ProfileTemplate({individualModel}) {
+    
+
     return (
         <div>
             <Container>
                 <Row id="profile-row" class="px-4 my-5">
                     <Col id="col-image" sm={7}>
-                        <Image className="image-content" src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/canvas/2021/10/15/576a0793-7cdc-463e-9810-2721bf801751_f36f3ecf.jpg?itok=UIBqv1x1&v=1634270634"
+                        <Image className="image-content" src={individualModel?.img}
                             fluid
                             rounded>
                         </Image>
                     </Col>
                     <Col id="col-info" sm={5}>
-                        <h1 class="font-weight-light">Hoyeon Jung</h1>
-                        <p>Based-in: South Korea</p>
-                        <p>Height: 175 cm</p>
-                        <p>Agency: N/A</p>
-                        <p>Ethnicity: South Korean</p>
-                        <p>Work status: Some boolean idk man</p>
-                        <Link to={"/bookings"}>
-                            <button className="book-button">Book Model</button>
-                        </Link>
+                        <h1 class="font-weight-light">{individualModel?.first_name} {individualModel?.last_name}</h1>
+                        <p>Based-in: {individualModel?.based}</p>
+                        <p>Height: {individualModel?.feet}ft {individualModel?.inches}ins</p>
+                        <p>Agency: {individualModel?.agency}</p>
+                        <p>Ethnicity: {individualModel?.ethnicity}</p>
+                        <p>Work status: {individualModel?.work_status ? "Unavailable" : "Available"}</p>
+                        {/* {ModelsList.status ? Ava : Un} */}
+
                     </Col>
                 </Row>
 
-                <div id="line-container">
+                {/* <div id="line-container">
                     <div id="lines">
                         <div id="diamond"></div>
                     </div>
-                </div>
+                </div> */}
 
-                <Row>
+                {/* <Row>
                     <Col>
                         <CardGroup >
                             <Card>
@@ -54,7 +57,7 @@ function ProfileTemplate() {
                             </Card>
                         </CardGroup>
                     </Col>
-                </Row>
+                </Row> */}
 
             </Container>
         </div>

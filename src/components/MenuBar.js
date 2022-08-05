@@ -29,8 +29,8 @@ function MenuBar() {
                         </Nav>
                         
                         <Nav>
-                            <Nav.Link as={Link} to={"/booked"}>Booked</Nav.Link>
-                            <Nav.Link as={Link} to={"/favorited"}>Favorited</Nav.Link>
+                            {/* <Nav.Link as={Link} to={"/booked"}>Booked</Nav.Link>
+                            <Nav.Link as={Link} to={"/favorited"}>Favorited</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
