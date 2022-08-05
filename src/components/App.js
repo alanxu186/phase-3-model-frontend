@@ -7,9 +7,9 @@ import Homepage from "./Homepage";
 import ModelsList from "./ModelsList";
 import MenuBar from "./MenuBar";
 import ProfilePage from "./ProfilePage";
+import SearchBar from "./SearchBar";
 import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from "react";
-import SearchBar from "./SearchBar";
 
 
 function App() {

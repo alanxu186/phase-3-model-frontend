@@ -1,5 +1,5 @@
 import "../stylesheets/AboutPage.css"
-import Card from 'react-bootstrap/Card'
+// import Card from 'react-bootstrap/Card'
 
 function AboutPage() {
     return (

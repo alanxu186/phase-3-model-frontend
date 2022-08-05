@@ -3,11 +3,11 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
-import Card from "react-bootstrap/Card"
-import CardGroup from "react-bootstrap/CardGroup"
-import useModel from "../CustomHooks/useModels"
-import { Link } from 'react-router-dom'
-import ModelsList from "./ModelsList"
+// import Card from "react-bootstrap/Card"
+// import CardGroup from "react-bootstrap/CardGroup"
+// import useModel from "../CustomHooks/useModels"
+// import { Link } from 'react-router-dom'
+// import ModelsList from "./ModelsList"
 
 
 

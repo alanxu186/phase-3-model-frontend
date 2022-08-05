@@ -1,7 +1,7 @@
 import "../stylesheets/ProfilePage.css"
 import ProfileTemplate from "./ProfileTemplate"
-// import useModel from "../CustomHooks/useModels"
 import { useParams } from "react-router-dom"
+// import useModel from "../CustomHooks/useModels"
 
 
 function ProfilePage({models}) {

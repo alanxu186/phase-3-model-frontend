@@ -1,13 +1,13 @@
-import { useEffect } from "react"
-import "../stylesheets/FavoritedPage.css"
+// import { useEffect } from "react"
+// import "../stylesheets/FavoritedPage.css"
 
-function FavoritedPage() {
+// function FavoritedPage() {
 
-    return (
-        <div>
-            This is the favorited page
-        </div>
-    )
-}
+//     return (
+//         <div>
+//             This is the favorited page
+//         </div>
+//     )
+// }
 
-export default FavoritedPage
+// export default FavoritedPage
