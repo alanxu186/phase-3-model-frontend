@@ -1,0 +1,26 @@
+.profile-container {
+	border-radius: 20px;
+}
+
+.grid-body img {
+	height: 550px;
+	width: 100%;
+}
+
+.detail-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px;
+    background-color: #E5E4E2;
+}
+
+.detail-container p {
+    /* margin-top: 15px; */
+}
+
+.detail-container button{
+    padding: 0px 35px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

@@ -7,19 +7,3 @@
 	margin: 20px;
 }
 
-.profile-container {
-	background-color: aliceblue;
-}
-
-.grid-body img {
-	height: 500px;
-	width: 100%;
-	object-fit: scale-down
-}
-
-.detail-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	padding: 10px;
-}

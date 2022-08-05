@@ -27,8 +27,6 @@ function ModelsList({searchModels, models, handleModelButton, isLoading, setIsLo
 
     return (
         <div className="grid-body">
-        <div>
-        </div>
             {/* <h1>All models:</h1> */}
             {modelProfiles}
         </div>

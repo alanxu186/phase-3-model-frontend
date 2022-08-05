@@ -1,8 +1,10 @@
+import "../stylesheets/ModelCard.css"
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 
 function ModelCard({model, id, img, work_status, first_name, last_name, handleModelButton, isLoading, setIsLoading}){
     const [booked, setBooked] = useState(false);
+
     
     let navigate = useNavigate();
 
@@ -42,10 +44,9 @@ function ModelCard({model, id, img, work_status, first_name, last_name, handleMo
                 </div>
                 <div className="detail-container">
                     <p>{first_name} {last_name}</p>
-                </div>
-                <div>
+                    
                     <button onClick={handleAvailability}>
-                    {work_status ? "Unavailabe" : "Available"}
+                    {work_status ? "Unbook" : "Book"}
                     </button>
                 </div>
             </div>
